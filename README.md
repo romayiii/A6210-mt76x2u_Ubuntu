@@ -3,7 +3,7 @@ Thanks  for  [@LorenzoBianconi](https://github.com/LorenzoBianconi)'s great  wor
 ## Build from Source code
 
 ```
-$ git clone https://github.com/cyangy/A6210-mt76x2u_Ubuntu.git
+$ git clone https://github.com/romayiii/A6210-mt76x2u_Ubuntu.git
 $ cd A6210-mt76x2u_Ubuntu
 $ make -j $(expr $(nproc) + 1)
 $ sudo make install
