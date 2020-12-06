@@ -71,7 +71,7 @@ uninstall:
 
 getsrc:
 	if [ ! -d "$(SRC_DIR)" ]; then \
-	   git clone -b $(BRANCH)  https://github.com/LorenzoBianconi/mt76.git $(SRC) ;\
+	   git clone -b $(BRANCH)  https://github.com/romayiii/mt76.git $(SRC) ;\
 	   cd  $(SRC) ;\
 	   git checkout $(COMMIT) ;\
 	   cd - ;\
